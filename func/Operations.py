@@ -16,8 +16,7 @@ class Operations:
 	
 	def deleteFile(self, filepath):
 		if os.path.exists(filepath):
-			with open (filepath, 'r') as file:
-					os.remove(file)
-					return True
+				os.remove(filepath)
+				return True
 		else:
 			raise ValueError('Wrong path')
