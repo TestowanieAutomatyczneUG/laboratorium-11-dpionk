@@ -1,5 +1,5 @@
-from functions.Note import Note
-from functions.NotesStorage import NotesStorage
+from func.Note import Note
+from func.NotesStorage import NotesStorage
 
 class NotesService:
     def __init__(self):
